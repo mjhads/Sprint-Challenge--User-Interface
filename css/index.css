@@ -66,9 +66,36 @@ p {
     line-height: 1.4;
 }
 
+/*YOUR CODE STARTS HERE*/
+
+container {
+    width: 800px;
+    margin: 0 auto;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
+}
+
+nav {
+    width: 800px;
+    padding: 10px;
+    margin-left: 350px;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a {
+    color: silver;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav a:hover {
+    background: darkgray;
+    color: white;
 }
 
 .top-content {
@@ -83,6 +110,12 @@ p {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
+}
+
+.top-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .middle-content {
@@ -110,6 +143,37 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.box1 {
+    background: teal;
+}
+.box2 {
+    background: gold;
+}
+.box3 {
+    background: cadetblue;
+}
+.box4 {
+    background: coral;
+}
+.box5 {
+    background: crimson;
+}
+.box6 {
+    background: forestgreen;
+}
+.box7 {
+    background: darkorchid;
+}
+.box8 {
+    background: hotpink;
+}
+.box9 {
+    background: indigo;
+}
+.box10 {
+    background: dodgerblue;
 }
 
 .bottom-content {
