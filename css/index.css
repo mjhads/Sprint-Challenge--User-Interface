@@ -93,6 +93,7 @@ nav a {
     text-decoration: none;
     display: flex;
     justify-content: center;
+    align-self: flex-end;
 }
 
 nav a:hover {
