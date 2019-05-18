@@ -78,10 +78,12 @@ container {
     margin: 0 auto;
 }
 
-nav {
+header nav {
     width: 800px;
     padding: 10px;
+    margin-top: 20px;
     margin-left: 350px;
+    padding-top: 7px;
     display: flex;
     justify-content: space-between;
 }
@@ -113,6 +115,8 @@ nav a:hover {
 }
 
 .top-image {
+    margin-top: 40px;
+    margin-bottom: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -174,6 +178,48 @@ nav a:hover {
 }
 .box10 {
     background: dodgerblue;
+}
+
+.about {
+    margin-bottom: 10px;
+    margin-left: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed darkgray;
+}
+
+.middle-part {
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* .middle-part h2 {
+    top-padding: 10px;
+} */
+
+.left-block {
+    width: 350px;
+    margin: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 1px dashed darkgray;
+}
+
+.right-block {
+    width: 350px;
+    margin: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 1px dashed darkgray
+}
+
+button {
+    margin-top: 20px;
+    background: white;
+    border: 1px solid black;
+    border-radius: 5px;
 }
 
 .bottom-content {
